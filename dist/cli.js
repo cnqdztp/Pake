@@ -198,7 +198,7 @@ var bundle$2 = {
 	windows: {
 		digestAlgorithm: "sha256",
     webviewInstallMode: {
-        type: "embedBootstrapper"
+        type: "offlineInstaller",
       },
 		wix: {
 			language: [
