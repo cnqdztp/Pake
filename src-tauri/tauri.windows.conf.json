@@ -5,6 +5,9 @@
     "resources": ["png/weread_32.ico"],
     "targets": ["msi"],
     "windows": {
+      "webviewInstallMode": {
+        "type": "skip"
+      },
       "digestAlgorithm": "sha256",
       "wix": {
         "language": ["en-US"],
